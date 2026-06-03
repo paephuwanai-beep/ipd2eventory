@@ -782,7 +782,7 @@
                             doctor: row[headers.indexOf('แพทย์เวร')] || "-",
                             netCount: parseInt(row[headers.indexOf('คงพยาบาล')]) || 0,
                             incident: row[headers.indexOf('อุบัติการณ์')] || "เหตุการณ์ทั่วไปปกติ",
-                            workloadStatus: row[headers.indexOf('สถานะภาระงาน')] || "ไม่มีข้อมูล",
+                            workloadStatus: dataObj['สถานะภาระงาน'] || "ไม่มีข้อมูล",
                             datasetArr: row, datasetObj: dataObj
                         };
                     });
